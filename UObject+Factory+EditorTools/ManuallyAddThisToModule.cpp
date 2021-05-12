@@ -1,7 +1,7 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
 #include "BionicApeUIEditor.h"
-#include "TypeActions/BAConfigTypeActions.h"
+#include "TypeActions/BAUIConfigTypeActions.h"
 #include "IAssetTools.h"
 
 #define LOCTEXT_NAMESPACE "FBionicApeUIEditorModule"
