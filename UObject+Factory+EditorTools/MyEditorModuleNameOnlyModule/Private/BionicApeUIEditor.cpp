@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Created by Bionic Ape. All Rights Reserved.
 
 #include "BionicApeUIEditor.h"
 #include "TypeActions/BAUIConfigTypeActions.h"
