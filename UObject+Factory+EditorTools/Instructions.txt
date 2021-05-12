@@ -1,0 +1,9 @@
+1 Copy to temp folder
+2 Replace folder MyEditorModuleName with the actual Editor module name
+3 Replace folder MyModuleName with the actual module name
+4 Replace all file names containing BAUIConfig to your New Object name (you can use rename expert program)
+5 Replace all text in files containing BAUIConfig to your New Object name
+6 Replace all text in files containing BIONICAPEUI_API with your API
+7 Replace all text in files containing BIONICAPEUIEDITOR_API with your Editor API
+
+
