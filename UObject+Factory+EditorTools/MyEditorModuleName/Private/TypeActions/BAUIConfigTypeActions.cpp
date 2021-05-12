@@ -12,7 +12,7 @@ FBAUIConfigTypeActions::FBAUIConfigTypeActions(EAssetTypeCategories::Type InAsse
 
 FText FBAUIConfigTypeActions::GetName() const
 {
-	return LOCTEXT("FBAUIConfigTypeActionsName", "Outfit");
+	return LOCTEXT("FBAUIConfigTypeActionsName", "BAUIConfig");
 }
 
 FColor FBAUIConfigTypeActions::GetTypeColor() const
