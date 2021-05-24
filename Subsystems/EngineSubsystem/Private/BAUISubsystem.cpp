@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Created by Bionic Ape. All Rights Reserved.
 
 
 #include "BAUISubsystem.h"
