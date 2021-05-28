@@ -1,6 +1,6 @@
 @echo off
 
-set /p ModName="Enter Module Name: "
+set /p ModName="Enter Plugin Name: "
 
 git submodule add https://github.com/BionicApe/%ModName% Plugins/%ModName%
 git submodule update --init --recursive
