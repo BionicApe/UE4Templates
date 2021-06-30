@@ -5,5 +5,5 @@
 5 Replace all text in files containing BAUIConfig to your New Object name
 6 Replace all text in files containing BIONICAPEUI_API with your API
 7 Replace all text in files containing BIONICAPEUIEDITOR_API with your Editor API
-
+8 Open the editor Module file and copy and paste the correct values for registering your AssetTypeActions 
 

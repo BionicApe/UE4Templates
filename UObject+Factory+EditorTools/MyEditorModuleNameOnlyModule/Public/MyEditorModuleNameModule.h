@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FBionicApeUIEditorModule : public IModuleInterface
+class FMyEditorModuleNameModule : public IModuleInterface
 {
 public:
 
