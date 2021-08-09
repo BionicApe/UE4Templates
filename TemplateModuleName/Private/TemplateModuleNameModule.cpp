@@ -1,6 +1,6 @@
 // Created by Bionic Ape. All Rights Reserved.
 
-#include "TemplateModuleName.h"
+#include "TemplateModuleNameModule.h"
 
 #define LOCTEXT_NAMESPACE "FTemplateModuleNameModule"
 

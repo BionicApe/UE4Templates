@@ -1,0 +1,2 @@
+1.Open Rename Expert and Replace TemplateModuleName with your ModuleName.
+2.Open all files and replace TemplateModuleName with your ModuleName.
