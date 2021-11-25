@@ -1,7 +1,7 @@
 // Created by Bionic Ape. All Rights Reserved.
 
 #include "BionicApeUIEditor.h"
-#include "TypeActions/BAUIConfigTypeActions.h"
+#include "TypeActions/MyBAObjectToRenameTypeActions.h"
 #include "IAssetTools.h"
 
 #define LOCTEXT_NAMESPACE "FBionicApeUIEditorModule"
@@ -12,7 +12,7 @@ void FBionicApeUIEditorModule::StartupModule()
 	IAssetTools& AssetTools = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools").Get();
 
 	EAssetTypeCategories::Type AssetCategoryBit = AssetTools.RegisterAdvancedAssetCategory(FName(TEXT("BionicApeUIEditor")), LOCTEXT("BionicApeUI", "BionicApeUI"));
-	AssetTools.RegisterAssetTypeActions(MakeShareable(new FBAUIConfigTypeActions(AssetCategoryBit)));
+	AssetTools.RegisterAssetTypeActions(MakeShareable(new FMyBAObjectToRenameTypeActions(AssetCategoryBit)));
 }
 
 void FBionicApeUIEditorModule::ShutdownModule()

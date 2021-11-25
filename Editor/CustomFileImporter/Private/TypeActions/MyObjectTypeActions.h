@@ -6,10 +6,10 @@
 #include "Toolkits/IToolkitHost.h"
 #include "AssetTypeActions_Base.h"
 
-class FBAUIConfigTypeActions : public FAssetTypeActions_Base
+class FMyObjectTypeActions : public FAssetTypeActions_Base
 {
 public:
-	FBAUIConfigTypeActions(EAssetTypeCategories::Type InAssetCategory);
+	FMyObjectTypeActions(EAssetTypeCategories::Type InAssetCategory);
 
 	// IAssetTypeActions interface
 	virtual FText GetName() const override;

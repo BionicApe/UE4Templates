@@ -1,0 +1,5 @@
+1 Copy to temp folder
+2 Replace all file names containing MyObject to your New Object name (you can use rename expert program)
+3 Replace all text in files containing MyObject to your New Object name (Notepad++)
+4 Replace all text in files containing MYMODULE_API with your Module API (Notepad++)
+

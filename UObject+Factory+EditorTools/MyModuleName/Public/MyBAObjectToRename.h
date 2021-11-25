@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-#include "BAUIConfig.generated.h"
+#include "MyBAObjectToRename.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class BIONICAPEUI_API UBAUIConfig : public UObject
+class MYBIONICAPEUI_API UMyBAObjectToRename : public UObject
 {
 	GENERATED_BODY()
 	

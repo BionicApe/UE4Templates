@@ -1,9 +1,9 @@
 1 Copy to temp folder
 2 Replace folder MyEditorModuleName with the actual Editor module name (you can use rename expert program)
 3 Replace folder MyModuleName with the actual module name (you can use rename expert program)
-4 Replace all file names containing BAUIConfig to your New Object name (you can use rename expert program)
-5 Replace all text in files containing BAUIConfig to your New Object name (Notepad++)
-6 Replace all text in files containing BIONICAPEUI_API with your API (Notepad++)
-7 Replace all text in files containing BIONICAPEUIEDITOR_API with your Editor API (Notepad++)
+4 Replace all file names containing MyBAObjectToRename to your New Object name (you can use rename expert program)
+5 Replace all text in files containing MyBAObjectToRename to your New Object name (Notepad++)
+6 Replace all text in files containing MYBIONICAPEUI_API with your API (Notepad++)
+7 Replace all text in files containing MYBIONICAPEUIEDITOR_API with your Editor API (Notepad++)
 8 Open the editor Module file and copy and paste the correct values for registering your AssetTypeActions
 
